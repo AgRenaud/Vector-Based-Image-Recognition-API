@@ -1,5 +1,5 @@
 # `python-base` sets up all our shared environment variables
-FROM python:3.9-slim-bullseye as python-base
+FROM python:3.12.7-slim-bullseye as python-base
 
 ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
